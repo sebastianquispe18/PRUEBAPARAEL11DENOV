@@ -1,0 +1,28 @@
+Palma
+
+untracked:
+Archivos que no viven adentro de Git, solo en el disco duro.
+Nunca han sido afectados por el comando git add.
+Git no tiene registros de su existencia.
+
+unstaged:
+Archivos que viven dentro de Git.
+No han sido afectados por el comando git add ni git commit.
+Git tiene un registro desactualizado de estos archivos.
+Sus últimas versiones solo están guardadas en el disco duro.
+
+staged:
+Archivos en staging.
+Viven dentro de Git.
+Hay registros de ellos por que han sido afectados por el comando "git add"
+(no, los últimos cambios).
+Git ya sabe de la existencia de los últimos cambios, pero aún no se han 
+guardado en el repositorio por que falta ejecutar el comando git commint.
+
+Archivos traked:
+Son los archivos que viven dentro de Git.
+No tienen cambios pendientes.
+Sus ultimas actualizaciones se han guardado en el repositorio por medio
+de comandos git add y git comment.
+
+para sebass
